@@ -18,7 +18,7 @@ h3 {
 .topBackground {
   background-image: url(https://campaigns-test.scdn.co/images/premium_dancer.png);
   background-position: right bottom;
-  background-size: 25rem;
+  background-size: contain;
   background-color: #509bf5;
   background-repeat: no-repeat;
   min-height: min-content;
