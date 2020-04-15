@@ -26,21 +26,21 @@ h3 {
   background-image: url(https://campaigns-test.scdn.co/images/premium_dancer.png);
   background-position: right bottom;
   background-size: contain;
-  background-color: rgb(80, 155, 245);
+ background-color: rgb(80, 155, 245);
+ 
   background-repeat: no-repeat;
 
   min-height: min-content;
-  padding-right: 5rem;
-  padding-top: 0rem;
-  padding-left: 5rem;
-  padding-bottom: 0rem;
+ 
 }
 // some nesting
 nav {
-  background: transparent;
+  // background: transparent;
+  background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
   height: 8vh;
-  padding: 1rem;
-  width: 100vw;
+  padding: 0rem;
+  padding-top: 1rem;
+  min-width: 100vw;
   position: fixed;
   display: flex;
 
@@ -50,6 +50,7 @@ nav {
   svg {
     width: 14rem;
     margin-right: auto;
+    padding-left: 1rem;
   }
 
   a {
@@ -66,7 +67,7 @@ nav {
   ul {
     // margin: 0;
     margin-right: auto;
-    padding-right: 2rem;
+    padding-right: 1rem;
     list-style: none;
   }
 
@@ -76,7 +77,9 @@ nav {
   ion-icon {
     font-size: 5rem;
     color: white;
-    margin-right: auto;
+    margin-left: auto;
+    margin-right: 1rem;
+
   }
 }
 
@@ -84,7 +87,7 @@ header {
   height: 8vh;
   padding-top: 8rem;
   padding-left: 1rem;
-  padding-right: 5rem;
+  padding-right: 1rem;
   padding-bottom: 1rem;
   background-color: transparent;
   height: auto;
@@ -139,6 +142,9 @@ main.grid-container {
     li {
       display: none;
     }
+  }
+  .topBackground {
+    background-image:none
   }
 }
 @media screen and (min-width: 621px) {
